@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Website Jam Tangan</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <i class='bx bxs-watch nav__logo-icon'></i>ROLEX
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Beranda</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#featured" class="nav__link">Unggulan</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#products" class="nav__link">Produk</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#new" class="nav__link">Baru</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+            </div>
+
+            <div class="nav__btns">
+                <i class='bx bx-moon change-theme' id="theme-button"></i>
+
+                <div class="nav__shop" id="cart-shop">
+                    <i class='bx bx-shopping-bag'></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="cart" id="cart">
+        <i class='bx bx-x cart__close' id="cart-close"></i>
+
+        <h2 class="cart__title-center">Keranjang</h2>
+
+        <div class="cart__container">
+            <article class="cart__card">
+                <div class="cart__box">
+                    <img src="assets/img/featured1.png" alt="" class="cart__img">
+                </div>
+
+                <div class="cart__details">
+                    <h3 class="cart__title">Jazzmaster</h3>
+                    <span class="cart__price">Rp13.870.000</span>
+
+                    <div class="cart__amount">
+                        <div class="cart__amount-content">
+                            <span class="cart__amount-box">
+                                    <i class='bx bx-minus' ></i>
+                                </span>
+
+                            <span class="cart__amount-number">1</span>
+
+                            <span class="cart__amount-box">
+                                    <i class='bx bx-plus' ></i>
+                                </span>
+                        </div>
+
+                        <i class='bx bx-trash-alt cart__amount-trash'></i>
+                    </div>
+                </div>
+            </article>
+
+            <article class="cart__card">
+                <div class="cart__box">
+                    <img src="assets/img/featured3.png" alt="" class="cart__img">
+                </div>
+
+                <div class="cart__details">
+                    <h3 class="cart__title">Rose Gold</h3>
+                    <span class="cart__price">Rp7.500.000</span>
+
+                    <div class="cart__amount">
+                        <div class="cart__amount-content">
+                            <span class="cart__amount-box">
+                                    <i class='bx bx-minus' ></i>
+                                </span>
+
+                            <span class="cart__amount-number">1</span>
+
+                            <span class="cart__amount-box">
+                                    <i class='bx bx-plus' ></i>
+                                </span>
+                        </div>
+
+                        <i class='bx bx-trash-alt cart__amount-trash'></i>
+                    </div>
+                </div>
+            </article>
+
+            <article class="cart__card">
+                <div class="cart__box">
+                    <img src="assets/img/new1.png" alt="" class="cart__img">
+                </div>
+
+                <div class="cart__details">
+                    <h3 class="cart__title">Longines Rose</h3>
+                    <span class="cart__price">Rp20.050.000</span>
+
+                    <div class="cart__amount">
+                        <div class="cart__amount-content">
+                            <span class="cart__amount-box">
+                                    <i class='bx bx-minus' ></i>
+                                </span>
+
+                            <span class="cart__amount-number">1</span>
+
+                            <span class="cart__amount-box">
+                                    <i class='bx bx-plus' ></i>
+                                </span>
+                        </div>
+
+                        <i class='bx bx-trash-alt cart__amount-trash'></i>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <div class="cart__prices">
+            <span class="cart__prices-item">3 items</span>
+            <span class="cart__prices-total">Rp41.420.000</span>
+        </div>
+    </div>
+    <main class="main">
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <div class="home__img-bg">
+                    <img src="assets/img/home.png" alt="" class="home__img">
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                            Facebook
+                        </a>
+                    <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                            Twitter
+                        </a>
+                    <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                            Instagram
+                        </a>
+                </div>
+
+                <div class="home__data">
+                    <h1 class="home__title">JAM TERBARU <br> KOLEKSI B720</h1>
+                    <p class="home__description">
+                        Kedatangan terbaru dari jam tangan impor baru dari seri B720, dengan desain modern dan tahan.
+                    </p>
+                    <span class="home__price">Rp30.000.000</span>
+
+                    <div class="home__btns">
+                        <a href="#" class="button button--gray button--small">
+                              TEMUKAN
+                            </a>
+                        <!-- Array 0  | B720-->
+                        <button onclick="GetIndex(0)" class="button home__button">MASUKKAN KE KERANJANG</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="featured section container" id="featured">
+            <h2 class="section__title">
+                UNGGULAN
+            </h2>
+
+            <div class="featured__container grid">
+                <article class="featured__card">
+                    <span class="featured__tag">Jual</span>
+
+                    <img src="assets/img/featured1.png" alt="" class="featured__img">
+
+                    <div class="featured__data">
+                        <h3 class="featured__title">Jazzmaster</h3>
+                        <span class="featured__price">Rp13.870.000</span>
+                    </div>
+                    <!-- Array 1 | Jazzmaster -->
+                    <a href="orderpage.html"><button onclick="GetIndex(1)" class="button featured__button">MASUKKAN KE KERANJANG</button></a>
+                </article>
+
+                <article class="featured__card">
+                    <span class="featured__tag">Jual</span>
+
+                    <img src="assets/img/featured2.png" alt="" class="featured__img">
+
+                    <div class="featured__data">
+                        <h3 class="featured__title">Ingersoll</h3>
+                        <span class="featured__price">Rp10.990.000</span>
+                    </div>
+                    <!-- Array 2 | Ingersoll -->
+                    <a href="orderpage.html"><button onclick="GetIndex(2)" class="button featured__button">MASUKKAN KE KERANJANG</button></a>
+                </article>
+
+                <article class="featured__card">
+                    <span class="featured__tag">Jual</span>
+
+                    <img src="assets/img/featured3.png" alt="" class="featured__img">
+
+                    <div class="featured__data">
+                        <h3 class="featured__title">Rose gold</h3>
+                        <span class="featured__price">Rp7.500.000</span>
+                    </div>
+                    <!-- Array 3 | Rose Gold -->
+                    <a href="orderpage.html"><button onclick="GetIndex(3)" class="button featured__button">MASUKKAN KE KERANJANG</button></a>
+                </article>
+            </div>
+        </section>
+        <section class="story section container">
+            <div class="story__container grid">
+                <div class="story__data">
+                    <h2 class="section__title story__section-title">
+                        Cerita kita
+                    </h2>
+
+                    <h1 class="story__title">
+                        Jam Tangan Inspiratif tahun ini
+                    </h1>
+
+                    <p class="story__description">
+                        Jam tangan terbaru dan modern tahun ini, tersedia dalam berbagai presentasi di toko ini, temukan sekarang.
+                    </p>
+
+                    <a href="#" class="button button--small">Temukan</a>
+                </div>
+
+                <div class="story__images">
+                    <img src="assets/img/story.png" alt="" class="story__img">
+                    <div class="story__square"></div>
+                </div>
+            </div>
+        </section>
+        <section class="products section container" id="products">
+            <h2 class="section__title">
+                Produk
+            </h2>
+
+            <div class="products__container grid">
+                <article class="products__card">
+                    <img src="assets/img/product1.png" alt="" class="products__img">
+
+                    <h3 class="products__title">Spirit rose</h3>
+                    <span class="products__price">Rp5.500.000</span>
+                    <!-- Array 4 | Spririt Rose -->
+                    <a href="orderpage.html"><button onclick="GetIndex(4)" class="products__button"><i class='bx bx-shopping-bag'></i></button></a>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/img/product2.png" alt="" class="products__img">
+
+                    <h3 class="products__title">Khaki pilot</h3>
+                    <span class="products__price">Rp4.350.000</span>
+                    <!-- Array 5 | Khaki Pilot -->
+                    <a href="orderpage.html"><button onclick="GetIndex(5)" class="products__button"><i class='bx bx-shopping-bag'></i></button></a>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/img/product3.png" alt="" class="products__img">
+
+                    <h3 class="products__title">Jubilee black</h3>
+                    <span class="products__price">Rp3.850.000</span>
+                    <!-- Array 6 | Jubilee Black -->
+                    <a href="orderpage.html"><button onclick="GetIndex(6)" class="products__button"><i class='bx bx-shopping-bag'></i></button></a>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/img/product4.png" alt="" class="products__img">
+
+                    <h3 class="products__title">Fosil me</h3>
+                    <span class="products__price">Rp2.999.999</span>
+                    <!-- Array 7 | Fosil ME3 -->
+                    <a href="orderpage.html"><button onclick="GetIndex(7)" class="products__button"><i class='bx bx-shopping-bag'></i></button></a>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/img/product5.png" alt="" class="products__img">
+
+                    <h3 class="products__title">Duchen</h3>
+                    <span class="products__price">Rp1.765.900</span>
+                    <!-- Array 8 | Duchen -->
+                    <a href="orderpage.html"><button onclick="GetIndex(8)" class="products__button"><i class='bx bx-shopping-bag'></i></button></a>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/img/product6.png" alt="" class="products__img">
+
+                    <h3 class="products__title">Olivia</h3>
+                    <span class="products__price">Rp1.000.000</span>
+                    <!-- Array 9 | Olivia -->
+                    <a href="orderpage.html"><button onclick="GetIndex(12)" class="products__button"><i class='bx bx-shopping-bag'></i></button></a>
+                </article>
+            </div>
+        </section>
+        <section class="testimonial section container">
+            <div class="testimonial__container grid">
+                <div class="swiper testimonial-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="testimonial__card swiper-slide">
+                            <div class="testimonial__quote">
+                                <i class='bx bxs-quote-alt-left'></i>
+                            </div>
+                            <p class="testimonial__description">
+                                Mereka adalah jam tangan terbaik yang diperoleh seseorang, juga selalu dengan berita dan tren terbaru, dengan harga yang sangat nyaman dan terutama dengan perhatian yang Anda terima, mereka selalu memperhatikan pertanyaan Anda.
+                            </p>
+                            <h3 class="testimonial__date">25 Maret 2021</h3>
+
+                            <div class="testimonial__perfil">
+                                <img src="assets/img/testimonial1.jpg" alt="" class="testimonial__perfil-img">
+
+                                <div class="testimonial__perfil-data">
+                                    <span class="testimonial__perfil-name">Lee Doe</span>
+                                    <span class="testimonial__perfil-detail">Direktur sebuah perusahaan</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial__card swiper-slide">
+                            <div class="testimonial__quote">
+                                <i class='bx bxs-quote-alt-left'></i>
+                            </div>
+                            <p class="testimonial__description">
+                                Mereka adalah jam tangan terbaik yang diperoleh seseorang, juga selalu dengan berita dan tren terbaru, dengan harga yang sangat nyaman dan terutama dengan perhatian yang Anda terima, mereka selalu memperhatikan pertanyaan Anda.
+                            </p>
+                            <h3 class="testimonial__date">26 April 2021</h3>
+
+                            <div class="testimonial__perfil">
+                                <img src="assets/img/testimonial2.jpg" alt="" class="testimonial__perfil-img">
+
+                                <div class="testimonial__perfil-data">
+                                    <span class="testimonial__perfil-name">Samantha Mey</span>
+                                    <span class="testimonial__perfil-detail">Direktur sebuah perusahaan</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial__card swiper-slide">
+                            <div class="testimonial__quote">
+                                <i class='bx bxs-quote-alt-left'></i>
+                            </div>
+                            <p class="testimonial__description">
+                                Mereka adalah jam tangan terbaik yang diperoleh seseorang, juga selalu dengan berita dan tren terbaru, dengan harga yang sangat nyaman dan terutama dengan perhatian yang Anda terima, mereka selalu memperhatikan pertanyaan Anda.
+                            </p>
+                            <h3 class="testimonial__date">27 Mei 2021</h3>
+
+                            <div class="testimonial__perfil">
+                                <img src="assets/img/testimonial3.jpg" alt="" class="testimonial__perfil-img">
+
+                                <div class="testimonial__perfil-data">
+                                    <span class="testimonial__perfil-name">Raul Zaman</span>
+                                    <span class="testimonial__perfil-detail">Direktur sebuah perusahaan</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-button-next">
+                        <i class='bx bx-right-arrow-alt'></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class='bx bx-left-arrow-alt'></i>
+                    </div>
+                </div>
+
+                <div class="testimonial__images">
+                    <div class="testimonial__square"></div>
+                    <img src="assets/img/testimonial.png" alt="" class="testimonial__img">
+                </div>
+            </div>
+        </section>
+        <section class="new section container" id="new">
+            <h2 class="section__title">
+                Barang Terbaru
+            </h2>
+
+            <div class="new__container">
+                <div class="swiper new-swiper">
+                    <div class="swiper-wrapper">
+                        <article class="new__card swiper-slide">
+                            <span class="new__tag">Baru</span>
+
+                            <img src="assets/img/new1.png" alt="" class="new__img">
+
+                            <div class="new__data">
+                                <h3 class="new__title">Longines rose</h3>
+                                <span class="new__price">Rp10.070.000</span>
+                            </div>
+                            <!-- Array 9 | Longiness rose -->
+                            <a href="orderpage.html"><button onclick="GetIndex(9)" class="products__button"><i class='bx bx-shopping-bag'></i></button></a><br>
+                        </article>
+
+                        <article class="new__card swiper-slide">
+                            <span class="new__tag">Baru</span>
+
+                            <img src="assets/img/new2.png" alt="" class="new__img">
+
+                            <div class="new__data">
+                                <h3 class="new__title">Jazzmaster</h3>
+                                <span class="new__price">Rp13.870.000</span>
+                            </div>
+
+                            <a href="orderpage.html"><button onclick="GetIndex(1)" class="products__button"><i class='bx bx-shopping-bag'></i></button></a><br>
+                        </article>
+
+                        <article class="new__card swiper-slide">
+                            <span class="new__tag">Baru</span>
+
+                            <img src="assets/img/new3.png" alt="" class="new__img">
+
+                            <div class="new__data">
+                                <h3 class="new__title">Dreyfuss gold</h3>
+                                <span class="new__price">Rp8.700.000</span>
+                            </div>
+                            <!-- Arrya 10 | Dreyfuss Gold -->
+                            <a href="orderpage.html"><button onclick="GetIndex(10)" class="products__button"><i class='bx bx-shopping-bag'></i></button></a><br>
+                        </article>
+
+                        <article class="new__card swiper-slide">
+                            <span class="new__tag">Baru</span>
+
+                            <img src="assets/img/new4.png" alt="" class="new__img">
+
+                            <div class="new__data">
+                                <h3 class="new__title">Portuguese rose</h3>
+                                <span class="new__price">Rp6.916.666</span>
+                            </div>
+                            <!-- Array 11 | Portuguese Rose -->
+                            <a href="orderpage.html"><button onclick="GetIndex(11)" class="products__button"><i class='bx bx-shopping-bag'></i></button></a><br>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="newsletter section container">
+            <div class="newsletter__bg grid">
+                <div>
+                    <h2 class="newsletter__title">BERLANGGANAN <br> BERSAMA KAMI</h2>
+                    <p class="newsletter__description">
+                        Jangan lewatkan diskon Anda. Berlangganan di email kami untuk mendapatkan penawaran terbaik, diskon, kupon, hadiah, dan banyak lagi.
+                    </p>
+                </div>
+                <div class="row"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253845.56163019082!2d106.71802231449131!3d-6.219227947021267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5498a359f5f%3A0x4b9d8b54831467b!2sRolex!5e0!3m2!1sid!2sid!4v1674481754893!5m2!1sid!2sid"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+
+                    <form action="" class="newsletter__subscribe">
+                        <input type="email" placeholder="Masukkan email Anda" class="newsletter__input">
+                        <button class="button">
+                            KIRIM
+                        </button>
+                </div>
+        </section>
+    </main>
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__content">
+                <h3 class="footer__title">informasi kami</h3>
+
+                <ul class="footer__list">
+                    <li>1234 - Jkt</li>
+                    <li>43210</li>
+                    <li>123-456-789</li>
+                </ul>
+            </div>
+            <div class="footer__content">
+                <h3 class="footer__title">Tentang kami</h3>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#" class="footer__link">Pusat layanan</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Dukungan pelanggan</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Tentang kami</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Hak cipta</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Produk</h3>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#" class="footer__link">Electric</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Accesories</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Media Sosial</h3>
+
+                <ul class="footer__social">
+                    <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+
+                    <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-twitter'></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-instagram'></i>
+                    </a>
+                </ul>
+            </div>
+        </div>
+
+        <span class="footer__copy">&#169; @RIWUAZAGTI.</span>
+    </footer>
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class='bx bx-up-arrow-alt scrollup__icon'></i>
+    </a>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/controller.js"></script>
+    <script src="assets/js/model.js"></script>
+</body>
+
+</html>
