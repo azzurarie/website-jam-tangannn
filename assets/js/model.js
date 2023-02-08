@@ -11,7 +11,7 @@ let ItemName =  [
     "LONGINESS ROSE",
     "DREYFUSS GOLD",
     "PORTUGUESE ROSE",
-    "Olivia"
+    "OLIVIA"
 ];
 
 let ItemPrice = [

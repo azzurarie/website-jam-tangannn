@@ -97,7 +97,7 @@
     color: #909090;
 }
 
-.rightcontent > p {
+.rightcontent > h6 {
     display: flex;
     height: 48vh;
     font-size: 15px;
