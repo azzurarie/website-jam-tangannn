@@ -3,6 +3,11 @@
     src: url(ExtraAsset/font/Poppins-Regular.ttf);
 }
 
+@font-face {
+    font-family: poppins-bold;
+    src: url(ExtraAsset/font/Poppins-Bold.ttf);
+}
+
 * {
     margin: 0px;
     /* outline: 1px solid red; */
@@ -18,9 +23,9 @@
     display: flex;
     align-items: center;
     height: 10vh;
-    width: 37.5%;
+    width: 100%;
+    margin: 0px 15px;
     justify-content: space-between;
-    padding-left: 5%;
 }
 
 .navbarmax > a > button {
@@ -29,9 +34,16 @@
 }
 
 .navbarmax > h3 {
-    font-size: 30px;
+    font-size: 20px;
+    letter-spacing: 0.1em;
     
 }
+
+.bold{
+    font-family: poppins-bold;
+    
+}
+
 
 .content {
     height: 90vh;
@@ -81,7 +93,7 @@
 }
 
 .rightcontent {
-    padding-right: 5%;
+    padding-right: 3%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -149,6 +161,29 @@
     
 }
 
+.ordermax1 {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageadd {
+    color: white;
+    line-height: 30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    
+}
+
 .upperbutton {
     display: flex;
     justify-content: space-between;
@@ -178,6 +213,12 @@
 input {
     width: 100%;
     height: 30px;
-    padding-left: 10px;
+    padding-left: 5px;
     box-sizing: border-box;
+    border: 2px solid #FFB566;
+    border-radius: 5px;
+}
+
+.textarea {
+    text-align: left;
 }
